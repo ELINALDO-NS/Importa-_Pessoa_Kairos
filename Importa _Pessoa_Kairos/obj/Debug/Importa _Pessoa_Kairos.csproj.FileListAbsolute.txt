@@ -1,0 +1,10 @@
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\Debug\Importa _Pessoa_Kairos.exe.config
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\Debug\Importa _Pessoa_Kairos.exe
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\Debug\Importa _Pessoa_Kairos.pdb
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa _Pessoa_Kairos.csproj.AssemblyReference.cache
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa__Pessoa_Kairos.Form1.resources
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa__Pessoa_Kairos.Properties.Resources.resources
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa _Pessoa_Kairos.csproj.GenerateResource.cache
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa _Pessoa_Kairos.csproj.CoreCompileInputs.cache
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa _Pessoa_Kairos.exe
+C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\Debug\Importa _Pessoa_Kairos.pdb
