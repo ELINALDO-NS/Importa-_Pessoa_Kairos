@@ -8,3 +8,36 @@ C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj
 C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.csproj.CoreCompileInputs.cache
 C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.exe
 C:\Users\ELINALDO\source\repos\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.pdb
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.csproj.AssemblyReference.cache
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa__Pessoa_Kairos.Form1.resources
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa__Pessoa_Kairos.Properties.Resources.resources
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.csproj.GenerateResource.cache
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.csproj.CoreCompileInputs.cache
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.exe
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa _Pessoa_Kairos.pdb
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Importa _Pessoa_Kairos.exe.config
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Importa _Pessoa_Kairos.exe
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Importa _Pessoa_Kairos.pdb
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\RestSharp.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Buffers.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Memory.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Numerics.Vectors.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Text.Encodings.Web.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Text.Json.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.ValueTuple.dll
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\RestSharp.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Buffers.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Memory.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Numerics.Vectors.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Text.Encodings.Web.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Text.Json.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\bin\x86\Debug\System.ValueTuple.xml
+C:\Users\ELINALDO\Documents\Projetos\CSHARP\Importa _Pessoa_Kairos\Importa _Pessoa_Kairos\obj\x86\Debug\Importa .CEE6E910.Up2Date

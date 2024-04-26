@@ -8,8 +8,10 @@ namespace Importa__Pessoa_Kairos
 {
     public class Pessoa
     {
-        public Int64 Matricula { get; set; }
-        public Int64 Cracha { get; set; }
+        public string Matricula { get; set; }
+        public string Cracha { get; set; }
+        public string PIS { get; set; }
+        public string CPF { get; set; }
         public string Nome { get; set; }
     }
 }
