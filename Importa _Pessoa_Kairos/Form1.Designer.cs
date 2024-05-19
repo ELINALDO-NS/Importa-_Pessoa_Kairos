@@ -38,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.Chave = new System.Windows.Forms.TextBox();
             this.btn_Importar = new System.Windows.Forms.Button();
+            this.LBL_Progresso = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -73,18 +74,19 @@
             // 
             // CNPJ
             // 
-            this.CNPJ.Location = new System.Drawing.Point(19, 99);
+            this.CNPJ.Location = new System.Drawing.Point(19, 91);
             this.CNPJ.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CNPJ.Name = "CNPJ";
             this.CNPJ.ReadOnly = true;
-            this.CNPJ.Size = new System.Drawing.Size(236, 21);
+            this.CNPJ.Size = new System.Drawing.Size(147, 21);
             this.CNPJ.TabIndex = 3;
+            this.CNPJ.Text = "15.127.483/0014-81";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 81);
+            this.label2.Location = new System.Drawing.Point(19, 73);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 15);
@@ -95,7 +97,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 135);
+            this.label3.Location = new System.Drawing.Point(19, 127);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 15);
@@ -104,18 +106,18 @@
             // 
             // CPF
             // 
-            this.CPF.Location = new System.Drawing.Point(19, 153);
+            this.CPF.Location = new System.Drawing.Point(19, 145);
             this.CPF.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CPF.Name = "CPF";
-            this.CPF.ReadOnly = true;
-            this.CPF.Size = new System.Drawing.Size(236, 21);
+            this.CPF.Size = new System.Drawing.Size(147, 21);
             this.CPF.TabIndex = 5;
+            this.CPF.Text = "905.200.335-15";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 192);
+            this.label4.Location = new System.Drawing.Point(19, 184);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 15);
@@ -124,7 +126,7 @@
             // 
             // Chave
             // 
-            this.Chave.Location = new System.Drawing.Point(19, 210);
+            this.Chave.Location = new System.Drawing.Point(19, 202);
             this.Chave.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Chave.Name = "Chave";
             this.Chave.Size = new System.Drawing.Size(236, 21);
@@ -132,20 +134,31 @@
             // 
             // btn_Importar
             // 
-            this.btn_Importar.Location = new System.Drawing.Point(19, 255);
+            this.btn_Importar.Location = new System.Drawing.Point(19, 238);
             this.btn_Importar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btn_Importar.Name = "btn_Importar";
-            this.btn_Importar.Size = new System.Drawing.Size(228, 28);
+            this.btn_Importar.Size = new System.Drawing.Size(195, 28);
             this.btn_Importar.TabIndex = 9;
             this.btn_Importar.Text = "Importar";
             this.btn_Importar.UseVisualStyleBackColor = true;
             this.btn_Importar.Click += new System.EventHandler(this.btn_Importar_Click);
             // 
+            // LBL_Progresso
+            // 
+            this.LBL_Progresso.AutoSize = true;
+            this.LBL_Progresso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Progresso.Location = new System.Drawing.Point(222, 245);
+            this.LBL_Progresso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_Progresso.Name = "LBL_Progresso";
+            this.LBL_Progresso.Size = new System.Drawing.Size(0, 15);
+            this.LBL_Progresso.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 311);
+            this.ClientSize = new System.Drawing.Size(324, 279);
+            this.Controls.Add(this.LBL_Progresso);
             this.Controls.Add(this.btn_Importar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Chave);
@@ -180,6 +193,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox Chave;
         private System.Windows.Forms.Button btn_Importar;
+        private System.Windows.Forms.Label LBL_Progresso;
     }
 }
 
