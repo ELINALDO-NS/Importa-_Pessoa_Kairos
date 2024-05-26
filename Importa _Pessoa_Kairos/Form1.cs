@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Web.Caching;
 using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace Importa__Pessoa_Kairos
 {
@@ -53,14 +54,45 @@ namespace Importa__Pessoa_Kairos
         }
 
         string SalvaPessoa_URL = "https://www.dimepkairos.com.br/RestServiceApi/People/SavePerson";
+        string ListaPessoa_URL = "https://www.dimepkairos.com.br/RestServiceApi/People/SearchPeople ";
 
+        public async Task<int> RetornaUltimaMatricula()
+        {
+            var pessoas = new List<Pessoa>();
+            int Matricula = 0;
+            await Task.Run(() =>
+            {
+                var client = new RestClient(ListaPessoa_URL);
+                var request = new RestRequest("", Method.Post);
+                request.AddHeader("Content-Type", "application/json");
+                request.AddHeader("key", Chave.Text);
+                request.AddHeader("identifier", CNPJ.Text);
+                var body = @"
+                            " + "\n" +
+                            @"{
+                            " + "\n" +
+                            @"  ""Desligado"" : false
+                            " + "\n" +
+                            @"}
+                            " + "\n" +
+                        @"";
+                request.AddParameter("application/json", body, ParameterType.RequestBody);
+                var response = client.Execute(request);
+                Resposta Resposta = JsonConvert.DeserializeObject<Resposta>(response.Content);
+                pessoas.AddRange(JsonConvert.DeserializeObject<List<Pessoa>>(Resposta.Obj.ToString()));
+                Matricula =Convert.ToInt32(pessoas.Max(x => x.Matricula));
+            });
+
+            return Matricula;
+        }
         public async Task<List<Pessoa>> PreencheLista(string CaminhoTxt)
         {
             List<Pessoa> Pessoas = new List<Pessoa>();
             Pessoas.Clear();
+            
             using (StreamReader reader = new StreamReader(LocalDoArquivo.Text))
             {
-
+                int matricula = await RetornaUltimaMatricula() + 1;
                 for (int i = 0; i < 3000; i++)
                 {
 
@@ -73,13 +105,18 @@ namespace Importa__Pessoa_Kairos
                         string Nome = linha.Substring(45, 51);
                         Pessoas.Add(new Pessoa
                         {
-                            Matricula = Matricula,
+                            Matricula = matricula.ToString(),
                             Cracha = Matricula,
                             CPF = Matricula,
                             PIS = PIS,
                             Nome = Nome
 
                         });
+                        matricula++;
+                    }
+                    else
+                    {
+                        break;
                     }
 
                 }
@@ -94,6 +131,7 @@ namespace Importa__Pessoa_Kairos
 
         private async void btn_Importar_Click(object sender, EventArgs e)
         {
+           
             try
             {
 
